@@ -1,0 +1,230 @@
+/* only affects bullet points in navigation */
+ul,
+.dropdown {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  /* change items from horizontal to vertical */
+  display: flex;
+
+  /* background: #6bv4ff; */
+}
+
+ul li {
+  width: 100%;
+  position: relative;/* only affects bullet points in navigation */
+}
+ul, .dropdown {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  /* Change items from horizontal to vertical */
+  display: flex;
+
+  /* background: #6bc4ff; */
+}
+
+ul li {
+  width: 100%;
+  position: relative;
+}
+
+li a {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 0, 242, 0.9); /* light blue with transparency */
+  border-radius: 12px; /* rounded corners */
+  padding: 10px 0;
+  text-align: center;  /* center the text inside */
+  min-width: 150px;    /* set minimum width */
+  z-index: 1000;
+}
+
+/* Show dropdown on hover or click */
+.display {
+  display: block;
+}
+
+.dropdown li {
+  list-style: none;
+  padding: 8px 12px;
+}
+
+/* Center the anchor text and adjust hover */
+.dropdown a {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Optional: hover effect for items */
+.dropdown a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+}
+
+
+ul li:hover .dropdown {
+  visibility: visible;
+}
+
+.menu-header {
+  display: block;
+}
+
+.fa-bars {
+  display: none;
+}
+
+/* Media queries go here... */
+
+@media (max-width: 767px) {
+  ul {
+      display: table;
+      width: 100%;
+  }
+
+  ul li {
+      text-align: left;
+  }
+
+  .dropdown {
+      position: relative;
+      padding-left: 20px;
+      width: auto;
+      left: 0;
+      top: 0;
+      transition: none;
+      visibility: visible;
+      display: none;
+      z-index: 1;
+  }
+
+  .dropdown.display {
+      display: block;
+  }
+
+  /* IMPORTANT: hide menu-content by default on mobile */
+  .menu-content {
+      display: none;
+  }
+
+  /* SHOW menu-content when toggled by JS */
+  .menu-content.show-menu {
+      display: block;
+  }
+
+  .menu-header {
+      text-align: right;
+      padding: 10px;
+      display: block;
+  }
+
+  .fa-bars {
+      color: orange;
+      display: inline;
+      border: 1px solid rgb(126, 126, 126);
+      padding: 5px 10px;
+      border-radius: 3px;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      cursor: pointer; /* Add pointer cursor */
+      font-size: 24px;
+  }
+}
+
+
+li a {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown {
+  position: absolute;
+
+  /* limits dropdown to width of parent li */
+  width: 100%;
+  flex-wrap: wrap;
+  visibility: hidden;
+  transition: 0.3s;
+  left: 0;
+  z-index: 1;
+  background-color: rgb(233, 205, 228);
+}
+
+ul li:hover .dropdown {
+  visibility: visible;
+}
+
+.menu-header {
+  /* display: none; */
+  display: block;
+}
+
+.fa-bars {
+  display: none;
+}
+
+/* media queries go here... */
+@media (max-width: 767px) {
+  ul {
+    display: table;
+    width: 100%;
+  }
+
+  ul li {
+    text-align: left;
+  }
+
+  .dropdown {
+    position: relative;
+    padding-left: 20px;
+    width: auto;
+    left: 0;
+    top: 0;
+    transition: none;
+    visibility: visible;
+    display: none;
+    z-index: 1;
+  }
+
+  .display {
+    display: block;
+  }
+
+  .menu-content {
+    display: none;
+  }
+
+  .menu-content.show-menu {
+    display: block;
+  }
+
+  .menu-header {
+    text-align: right;
+    padding: 10px;
+    display: block;
+  }
+
+  .fa-bars {
+    color: orange;
+    display: inline;
+    border: 1px solid rgb(126, 126, 126);
+    padding: 5px 10px;
+    border-radius: 3px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}

@@ -1,0 +1,51 @@
+textarea, input {
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.form-text{
+    width: 100%;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+textarea {
+    width: 90%;
+    height: 150px;   
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+}
+
+button {
+    padding: 20px;
+    transition-duration: 0.4;
+    background-color: #f8722a;
+    border-radius: 5px;
+    margin: auto;
+    width: 90%;
+}
+
+button:hover {
+    background-color: #bc4f8c;
+        color: white;
+    }
+
+    /* for small screens, make width 100% */
+@media(max-width: 900px) {
+
+    .form-text {
+        width: 100%;
+
+    }
+    
+    }

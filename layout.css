@@ -1,0 +1,139 @@
+body {
+    margin: auto;
+    padding: 50px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    background-image: url(../images/animeback.jpg);
+  }
+  
+  /* ---- Set up site grid ---- */
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "logo top-title header"
+      "main main main"
+      "footer footer footer";
+    grid-gap: 0px;
+  
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+  .logo {
+    grid-area: logo;
+    padding: 0;
+    padding-left: 20px;
+    float: left;
+    margin-bottom: 0;
+  }
+  
+  .top-title {
+    grid-area: top-title;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+  .header {
+    grid-area: header;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .main {
+    grid-area: main;
+    background-color: rgba(255, 255, 255, .5);
+    border: solid 1px #CCC;
+  }
+  
+  .footer {
+    grid-area: footer;
+    text-align: right;
+  }
+  
+  /* ---- End of grid setup ---- */
+  
+  /* -000- Area styling -000- */
+  
+  .box {
+    padding: 20px;
+    /* border-radius: 10px; */
+    /*background-color: #ddd; */
+  }
+  
+.logo, .top-title, .header, .footer {
+  background-color: white;
+}
+
+  /* -000- End of area styling -000- */
+  
+
+
+  h1, h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  /* responsive image rules */
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  /* div to ensure that content on first page fill vertical space */
+  .info-text
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* style bullets in main part of page (seperate to navigation) */
+
+
+  ul.text {
+      list-style: disc;
+      display: list-item;
+      border: none;
+      margin-left: 20px;
+      /* background-colour: white; */
+  }
+
+  .single-spacing {
+    padding: 0;
+    
+  }
+  
+  /* Navigation Links */
+  a.nav {font-weight: bold;}
+  a.nav a:link, .nav a:visited {color: #AA0000; /* dark red */}
+  a.nav a:hover {color: #604830; text-decoration: none;}/* chocolate brown */
+
+  /* links in page */
+  a {font-weight: bold;}
+  
+  a:link {color: #AA0000;} /* dark red */
+  a:visited {color: #111177;}    /* dark blue */
+  a:hover {color: #000;} /* black */
+
+  
+  @media(max-width: 767px)
+  {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+             "logo top-title "
+             "header header"
+             "main main"
+             "footer footer";
+             grid-gap: 0;    
+    }
+
+
+  }
