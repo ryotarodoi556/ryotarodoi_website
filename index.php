@@ -18,12 +18,12 @@ include("functions.php");
   <link href="https://fonts.googleapis.com/css?family=LatoUbuntu" rel="stylesheet">
 
   <!-- External Stylesheets -->
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/simple-lightbox.css" />
-  <link rel="stylesheet" href="css/gallery.css" />
-  <link rel="stylesheet" href="css/layout.css" />
-  <link rel="stylesheet" href="css/navigation.css" />
-  <link rel="stylesheet" href="css/form.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" >
+  <link rel="stylesheet" href="css/simple-lightbox.css" >
+  <link rel="stylesheet" href="css/gallery.css" >
+  <link rel="stylesheet" href="css/layout.css" >
+  <link rel="stylesheet" href="css/navigation.css" >
+  <link rel="stylesheet" href="css/form.css" >
 
   <!-- jQuery -->
   <script src="js/j_query_min.js"></script>
@@ -36,7 +36,7 @@ include("functions.php");
     <!-- Logo -->
     <div class="logo">
       <a href="index.php">
-        <img class="responsive" src="images/anime.png" alt="Anime Logo" />
+        <img class="responsive" src="images/anime.png" alt="Anime Logo" >
       </a>
     </div>
 
