@@ -1,3 +1,4 @@
+/* Style for text areas and input boxes */
 textarea, input {
     font-family: 'Lato', sans-serif;
     font-size: 100%;
@@ -8,44 +9,45 @@ textarea, input {
     padding: 10px;
 }
 
-.form-text{
+/* Form container */
+.form-text {
     width: 100%;
     margin: auto;
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
+/* Text area size */
 textarea {
     width: 90%;
     height: 150px;   
 }
 
+/* Input box size */
 input {
     width: 90%;
     padding: 10px;
 }
 
+/* Button style */
 button {
     padding: 20px;
-    transition-duration: 0.4;
+    transition-duration: 0.4s; /* added s for seconds */
     background-color: #f8722a;
     border-radius: 5px;
     margin: auto;
     width: 90%;
 }
 
+/* Button hover effect */
 button:hover {
     background-color: #bc4f8c;
-        color: white;
-    }
+    color: white;
+}
 
-    /* for small screens, make width 100% */
-@media(max-width: 900px) {
-
+/* On small screens make form full width */
+@media (max-width: 900px) {
     .form-text {
         width: 100%;
-
     }
-    
-    }
+}

@@ -1,31 +1,38 @@
+/* Gallery box */
 div.gallery {
   border: 1px solid #ccc;
 }
 
+/* Hover effect */
 div.gallery:hover {
   border: 1px solid #777;
 }
 
+/* Gallery images */
 div.gallery img {
   width: 100%;
   height: auto;
 }
 
+/* Description text */
 div.desc {
   padding: 15px;
   text-align: center;
 }
 
+/* Include padding/border in size */
 * {
   box-sizing: border-box;
 }
 
+/* 4 items per row */
 .responsive-gallery {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
 }
 
+/* 2 items per row on small screens */
 @media only screen and (max-width: 700px) {
   .responsive-gallery {
     width: 49.99999%;
@@ -33,12 +40,14 @@ div.desc {
   }
 }
 
+/* 1 item per row on very small screens */
 @media only screen and (max-width: 500px) {
   .responsive-gallery {
     width: 100%;
   }
 }
 
+/* Clear floats */
 .clearfix:after {
   content: "";
   display: table;
