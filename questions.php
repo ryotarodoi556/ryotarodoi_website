@@ -12,10 +12,10 @@
         <p>Yes! You can download images by right-clicking and selecting "Save As." Please respect copyright and attribution requirements where applicable.</p>
 
         <h3>3. How do I request new images or themes?</h3>
-        <p>You can send us a message through our Contact page</a> with your requests. We'll do our best to add new themes based on user suggestions!</p>
+        <p>You can send us a message through our Contact page with your requests. We'll do our best to add new themes based on user suggestions!</p>
 
         <h3>4. Can I submit my own images?</h3>
-        <p>We welcome fan contributions! Use the Contact page</a> to submit images. Please ensure you have the right to share them and provide proper attribution if necessary.</p>
+        <p>We welcome fan contributions! Use the Contact page to submit images. Please ensure you have the right to share them and provide proper attribution if necessary.</p>
 
         <h3>5. Are the images safe for all ages?</h3>
         <p>Yes, all content on this site is curated to be safe for general audiences. No inappropriate content is allowed.</p>
@@ -23,7 +23,7 @@
         <h3>6. Who created this site?</h3>
         <p>This website is created and maintained by Ryotaro Doi as a personal project to share anime images and resources with fans.</p>
 
-        <p>If you have any more questions, feel free to contact us</a>!</p>
+        <p>If you have any more questions, feel free to contact us!</p>
 
     </div> <!-- /info-text -->
 </div> <!-- /main div -->

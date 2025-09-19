@@ -5,14 +5,10 @@
         <!-- Form title -->
         <h2>Contact Us</h2>
 
-        <!-- 
-        Notes (for setup):
-        - Fill in fields on Google Form
-        - Get prefilled link and find the input "entry.####" names from the source code
-        -->
-
         <!-- Script: redirects to custom success page after form is submitted -->
-        <script type="text/javascript">var submitted=false;</script>
+        <script>
+    var submitted = false;
+</script>
 
         <!-- Hidden iframe to submit form without leaving the page -->
         <iframe 
@@ -31,7 +27,7 @@
 
             <!-- Name field -->
             <p>
-                <input type="name" name="entry.726178720" placeholder="Name" required />
+                <input type="text" name="entry.726178720" placeholder="Name" required />
             </p>
 
             <!-- Email field -->
